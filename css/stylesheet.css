@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=font-family: 'Cinzel Decorative', cursive|Raleway, sans-serif");
+
+
+#home
+{background-color: #000000;
+}
+
+h1
+{
+    font-family: Cinzel Decorative;
+    font-size: 100px;
+    /*font-color: 255,255,255;*/
+color: #FFFFFF;
+}
+
+/*
+.slideshow {
+    overflow: hidden;
+    width: 400px;
+    height: 260px;
+    background-color: #000;
+    margin: 10px;
+}
+.slideshow img {
+    width: 600;
+    height: 400;
+}
+*/
+/*
+Code for Cross-Fading: See below-->
+
+@keyframes cf3FadeInOut {
+  0% {
+  opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+#cf3 img.top {
+animation-name: cf3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+animation-direction: alternate;
+}
+*/
+
+#dust {
+ /* border: white solid 1px;*/
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+/*
+.img-responsive
+{
+    max-width: auto;
+    min-width: auto;
+    height: auto;
+    min-height: auto;
+}
+*/
+#dust img {
+  position:absolute;
+  left: 34.52555%;
+  top: 0%;
+ /* +transform(translate(-50%,-50%))*/
+}
+  /*
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+*/
+
+/*
+#dust img.top:hover {
+  opacity:0;
+}
+*/
+/*
+html,body{
+height: 100%;    
+}
+*/
+/*New Code - web pages 2 - 5*/
+
+#center{
+  background-color:yellow;
+  height: 500px;
+  width: 450px;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+}
+#right{
+  background-color: blue;
+  height: 500px;
+  width: 450px;
+  position: absolute;
+  right: 0px;
+}
+#up{
+  background-color: orange;
+  height: 500px;
+  width: 450px;
+  position: absolute;
+  bottom: 0px;
+}

@@ -1,0 +1,401 @@
+@import url("https://fonts.googleapis.com/css?family=font-family: 'Cinzel Decorative', cursive|Raleway, sans-serif");
+
+
+#home
+{
+  background-color: #000000;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.navbar-brand
+{
+    margin: 0;
+    padding:0;
+}
+.logo
+{
+    height: 50px;
+    padding-right: 15px;
+    padding-left: 5px;
+}
+
+
+h1
+{
+    font-family: Cinzel Decorative;
+    font-size: 100px;
+        color: #FFFFFF;
+}
+
+h2
+{
+    font-family: Cinzel Decorative;
+    font-size: 50px;
+        color: #FFFFFF;
+}
+
+h3
+{
+   font-family:Raleway;
+   font-size: 30px;
+   color: #FFFFFF;
+}
+
+wtext, h4{
+    margin-bottom: 150px;
+    margin-top: 350px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: Raleway;
+    color: #C0C0C0;
+    /*color: #98AFC7;*/
+     /*color: #C0C0C0;*/
+}
+
+/*
+.slideshow {
+    overflow: hidden;
+    width: auto;
+    height: auto;
+}
+.slideshow img {
+    width: 640px;
+    height: 799px;
+}
+*/
+/*
+Code for Cross-Fading: See below-->
+
+@keyframes cf3FadeInOut {
+  0% {
+  opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+#cf3 img.top {
+animation-name: cf3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+animation-direction: alternate;
+}
+*/
+
+#dust 
+{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform:translate(-50%, -50%);
+}
+/* DO NOT USE THIS CODE ANYMORE
+.img-responsive {
+  position:absolute;
+  top: auto;
+  left: 50%;
+  right: -45.53%;
+  bottom: auto;
+  }
+ */
+ 
+ @keyframes fadeinandout
+ {
+   0% {
+     opacity: 1;
+   }
+ 
+   45% {
+     opacity: 1;
+   }
+   55% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 0;
+   }
+ }
+ 
+ .first {
+   animation-name: dustFadeInOut;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+   animation-duration: 10s;
+   animation-direction: alternate;
+   position: absolute
+ }
+ 
+ .second {
+   animation-name: dustFadeInOut;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+   animation-duration: 10s;
+   animation-direction: alternate;
+ }
+ 
+ .third {
+   animation-name: dustFadeInOut;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+   animation-duration: 10s;
+   animation-direction: alternate;
+   position: absolute
+ }
+ 
+ .fourth {
+   animation-name: dustFadeInOut;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+   animation-duration: 10s;
+   animation-direction: alternate;
+ }
+ .fifth {
+   animation-name: dustFadeInOut;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+   animation-duration: 10s;
+   animation-direction: alternate;
+   position: absolute
+ }
+ 
+ .sixth {
+   animation-name: dustFadeInOut;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+   animation-duration: 10s;
+   animation-direction: alternate;
+ }
+ 
+ .seventh {
+   animation-name: dustFadeInOut;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+   animation-duration: 10s;
+   animation-direction: alternate;
+   position: absolute
+ }
+ 
+ #dust {
+   position: relative;
+   height: auto ;
+   width: auto;
+   margin: 0 auto;
+ }
+ 
+ 
+  #dust img, .talent img {
+    position: absolute;
+    top:0;
+    left: 0;
+  -webkit-transition: opacity 2s ease-in-out;
+  -moz-transition: opacity 2s ease-in-out;
+  -o-transition: opacity 2s ease-in-out;
+  transition: opacity 2s ease-in-out;
+}
+
+/*
+#dust img.top:hover {
+  opacity:0;
+}
+*/
+/*
+html,body{
+height: 100%;    
+}
+*/
+
+/*Old Code - web pages 2 - 5* See New Code Below/
+/*
+#center{
+  background-color:yellow;
+  height: 500px;
+  width: 450px;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+}
+#right{
+  background-color: blue;
+  height: 500px;
+  width: 450px;
+  position: absolute;
+  right: 0px;
+}
+#up{
+  background-color: orange;
+  height: 500px;
+  width: 450px;
+  position: absolute;
+  bottom: 0px;
+} 
+}
+ Keep an eye out for closing } on line 175/
+  } 
+*/
+
+.welpg{
+    text-align: center;
+}
+.welcome
+{
+    background-image: url("../img/dancers/wcover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 100vh;
+}
+
+
+
+.names, .chodir{
+    text-align: center;
+}
+
+.choreographers {
+    background-image: url("../img/bg/rosebackdrop2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 100vh;
+    font: #FFFFFF;
+}
+
+.directors
+{
+    background-image: url("../img/bg/lights.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font: #033e9e;
+}
+/*Add code to choreographers*/
+.center
+{
+ position: absolute;
+ left: 0;
+ top: 30%;
+ width: 100%;
+ text-align: center;
+ font-size: 30px;
+ font: yellow;
+}
+
+
+
+
+
+
+/* CHECK ON THIS CODE*/
+
+.row h2
+{
+     justify-content: center;
+     font-family: Cinzel Decorative;
+     color: #FFFFFF;  
+}
+
+h3 
+{
+     justify-content: center;
+     font-family: Cinzel;
+     font-size: 30px;
+     color: #FFFFFF;  
+}
+
+
+
+.row phot{
+
+  height: 600px;
+  padding: 0px;
+}
+/*
+body{
+  background-image:url("img/bg/gradient1.jpg");
+  background-repeat: repeat;
+  color:#f5f5f5;
+}
+*/
+.d-flex {
+    font-style: italic;
+    font-size: medium;
+    
+}
+/* DECIDE ON BACKGROUND IMAGE AND INCLUDE
+.c{
+  background-image:url("img/bg/gradient1.jpg");
+}
+*/
+
+
+.tc{
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.bio {
+    font-style: normal;
+    font-size: 20px;
+    font: #FFFFFF;
+}
+
+@media (max-width: 576px) {  
+.chodir{/*Check on responsiveness of title font*/
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.names{
+    /*margin-top:500px;*/
+    font-size: 12px;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translateX(-50%) translateY(-50%);
+}
+}
+@media (min-width: 577px) {  
+.chodir{/*Check on responsiveness of title font*/
+    font-size: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.names{
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translateX(-50%) translateY(-50%);
+    /*margin-top:100px;*/
+}
+}
+@media (min-width: 768px) {  
+.chodir{/*Check on responsiveness of title font*/
+    font-size: 75px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.names{
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translateX(-50%) translateY(-50%);
+}
+}
